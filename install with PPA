@@ -1,0 +1,21 @@
+Adding one PPA to your system
+
+如果第一次使用PPA上软件，需要去launchpad注册否则通过终端add软件源是无反应的。
+
+1.首先需要在https://launchpad.net 注册用户，这个账号是使用Ubuntu one的账号。当你注册的时候，网页会提醒你在Ubuntu中添加启动器，这时确定就行。
+然后依据提示注册就行了;
+
+2.在search文本框中输入你想要的软件，比如我要安装shadowsocks，输入并按search。在下面会出现一系列相关的软件,我们选择第一项;
+
+3.然后就可以直接看到add this ppa to you system的标题等内容，下面会有提示如何在终端敲入指令进行软件源的add。
+
+4.在上面经过查找后找到了Ubuntu的ppa软件包，那么接下来就是使用命令行进行添加、更新和安装操作了。
+基本格式如下：
+
+sudo add-apt-repository ppa:max-c-lv/shadowsocks-libev
+sudo apt-get update
+sudo apt-get install shadowsocks-libev
+--------------------- 
+
+
+
